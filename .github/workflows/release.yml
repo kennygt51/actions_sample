@@ -19,5 +19,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
+          body: |
+            - 過去のタグまでさかのぼって一覧を取得してここに貼る
           draft: false
           prerelease: false
