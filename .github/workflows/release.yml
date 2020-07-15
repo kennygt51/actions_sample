@@ -1,4 +1,4 @@
-name: Hello,World!
+name: Create Release
 on:
   push:
     tags:
